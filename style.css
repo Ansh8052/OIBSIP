@@ -7,6 +7,8 @@
 }
 body{
     /* background-image: url("bg3.jpg"); */
+    background: rgb(126,101,101);
+background: linear-gradient(180deg, rgba(126,101,101,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 .nav_container{
@@ -32,6 +34,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blue;
     font-size: xx-large; 
+    text-shadow: 2px 2px 5px bisque;
     
 }
 .link a {
@@ -40,10 +43,12 @@ body{
     color: rgb(32, 196, 225);
      text-decoration:none ;
      transition: 0.2s; 
+     font-size: 1.5rem;
 }
 .link a:hover{
-    background-color:rgb(244, 243, 241) ;
+    background-color:rgb(154, 154, 153) ;
     padding:0.2rem 0.5rem ;
+    color: black;
 
 }
 .button{
@@ -70,7 +75,7 @@ body{
     font-size: 3rem;
     font-weight: 700;
     line-height: 3rem;
-    color: rgb(187, 76, 12);
+    color: rgb(255, 184, 184);
     text-shadow:5px 5px 5px rgba(7, 25, 18, 0.937);
    text-align: center;
     margin: auto;
@@ -88,10 +93,10 @@ body{
         transition: 0.4s; 
         border-radius: 1000px;
     }
-    img:hover{
+    /* img:hover{
         width: 750px;
-        height: 350px;
-    }
+        height: 350px; */
+    
     .booking_nav{
     max-width: 600px;
        text-align: center;
@@ -108,11 +113,14 @@ body{
      cursor: pointer;
        padding: 1rem 2rem;
        align-items: center;
-
-      
+    }
+    .booking_nav span:hover{
+        color: rgb(0, 0, 0);
+        font-size: 1.3rem;
+    }
 
      
-    }
+    
     .booking_nav span:nth-child(2){
         color: rgb(218, 64, 13);
         background-color: rgb(44, 21, 21);
@@ -204,6 +212,7 @@ top: 0;
         text-shadow: 2px 2px 10px;
         margin-top: 10px;
         margin-bottom: 1rem;
+        text-shadow:2px 2px 5px rgb(0, 0, 0);
 
     }
     .plane_container .description{
@@ -212,6 +221,7 @@ top: 0;
         text-align: center;
         color: black;
         margin-bottom: 7rem;
+        text-shadow:2px 2px 5px rgb(77, 77, 77);
     }
     .plane_grid{
         /* margin-top: 5rem; */
@@ -322,7 +332,7 @@ top: 0;
     .section_header h2{
         margin-top: 1rem;
         padding-left: 1.2rem;
-        color: rgb(210, 18, 18);
+        color: rgb(58, 20, 20);
         text-shadow: 2px 2px 10px;
         font-size: 3rem;
         
@@ -404,19 +414,20 @@ top: 0;
         display: grid;
         grid-template-columns:2fr repeat(2, 1fr) ;
         gap: 5rem;
-        background-color: rgb(117, 116, 114);
+        background-color: rgb(170, 169, 168);
         padding-top: 3rem;
     }
     .footer_col h3{
         font-size: 2rem;
         font-weight: 600;
-        color: rgb(207, 128, 24);
+        color: blue;
         margin-bottom: 1rem;
         margin-left: 4rem;
+        text-shadow: 2px 2px 5px bisque;
     }
     .footer_col h4{
         margin-bottom: 1rem;
-        color: rgb(10, 214, 217);
+        color: rgb(53, 95, 110);
         font-weight: 500;
         font-size: 1.2rem;
         margin-left: 3rem;
@@ -430,10 +441,10 @@ top: 0;
         transition: 0.2s;
         line-height: 1.2rem;
         word-spacing: 1rem;
-        color: rgb(236, 255, 226);
+        color: rgb(55, 43, 43);
     }
     .footer_col p:hover{
-        color: rgb(235, 225, 207);
+        color: rgb(240, 207, 158);
     }
     .footer_bar{
         padding: 0.5rem;
@@ -448,7 +459,7 @@ top: 0;
     .footer_bar p{
         font-size: 1.2rem;
         font-weight: 600;
-        color: rgb(78, 50, 14);
+        color: rgb(0, 0, 0);
         margin-left: 4rem;
         margin-bottom: 3rem;
     }
