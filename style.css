@@ -7,20 +7,21 @@
 }
 body{
     /* background-image: url("bg3.jpg"); */
-    background: rgb(126,101,101);
-background: linear-gradient(180deg, rgba(126,101,101,1) 0%, rgba(255,255,255,1) 100%);
+    background: rgb(230, 230, 230);
+background: linear-gradient(180deg, rgb(100, 100, 100) 0%, rgba(255,255,255,1) 100%);
 }
 
+
 .nav_container{
-   max-width:1200px;
-   margin: auto;
-   padding: 1rem 1rem;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   gap: 1rem;
-   
-   
+    max-width:1200px;
+    margin: auto;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    
+    
 
 }
 .nav_list{
@@ -41,15 +42,15 @@ background: linear-gradient(180deg, rgba(126,101,101,1) 0%, rgba(255,255,255,1) 
     font-weight: 500;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(32, 196, 225);
-     text-decoration:none ;
-     transition: 0.2s; 
-     font-size: 1.5rem;
+    text-decoration:none ;
+    transition: 0.2s; 
+    font-size: 1.5rem;
 }
 .link a:hover{
     background-color:rgb(154, 154, 153) ;
     padding:0.2rem 0.5rem ;
     color: black;
-
+    
 }
 .button{
     font-weight: 600;
@@ -77,22 +78,24 @@ background: linear-gradient(180deg, rgba(126,101,101,1) 0%, rgba(255,255,255,1) 
     line-height: 3rem;
     color: rgb(255, 184, 184);
     text-shadow:5px 5px 5px rgba(7, 25, 18, 0.937);
-   text-align: center;
+    text-align: center;
     margin: auto;
-
+    
 }
 
-    img{
-        display: flex;
-        margin: auto;
-        /* padding: 1rem; */
-        box-shadow: 20px 20px 30px 20px rgba(0,0,0,0.5) ;
-        /* border: 5px solid  ; */
-        width: 800px;
-        height: 400px;
-        transition: 0.4s; 
-        border-radius: 1000px;
-    }
+img{
+    display: flex;
+    margin: auto;
+    /* padding: 1rem; */
+    box-shadow: 20px 20px 30px 20px rgba(0,0,0,0.5) ;
+    /* border: 5px solid  ; */
+    width: 800px;
+    height: 400px;
+    transition: 0.4s; 
+    border-radius: 1000px;
+    
+}
+
     /* img:hover{
         width: 750px;
         height: 350px; */
