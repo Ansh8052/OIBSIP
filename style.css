@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color:rgb(233, 190, 190) ;
+}
+.container h1{
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(48, 34, 34);
+    text-shadow:2px 2px 5px rgb(255, 4, 4);
+    
+}
+#form_container{
+    border-radius: 10rem;
+    max-width: 800px;
+    min-height: 300px;
+    margin: auto;
+    background-color: rgb(102, 176, 233);
+    margin-top: 50px;
+}
+#input{
+   display: flex;
+   justify-content: center;
+   gap: 9rem;
+   padding:1.8rem;
+}
+#input #input_container{
+    padding: 1rem 0rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    max-width: 150px;
+    border: 1px solid red;
+    border-radius: 1.2rem;
+    box-shadow: 4px 4px 30px black;
+}
+#selectBox{
+    font-size: 1.5rem;
+    border: 1px solid red;
+    border-radius: 1.2rem;
+    padding-left: 1rem;
+    box-shadow: 4px 4px 30px black;
+}
+#form_container .footer{
+    display: flex;
+justify-content: center;
+padding: 1.2rem;
+}
+ .footer input{
+    padding: 1.2rem;
+    font-size: 1.1rem;
+    background-color: indianred;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 20px rgb(255, 255, 255);
+}
+#form_container .footer :hover{
+    color: rgb(239, 246, 246); 
+    font-size: 1.2rem;
+}
+#form_container #output{
+    
+    color: rgb(53, 30, 1);
+    display: flex;
+   justify-content: center;
+   font-size: 2rem;
+
+}
+
