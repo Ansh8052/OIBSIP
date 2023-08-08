@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature calulator</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+        <div class="header">
+           <h1> Temperature Converter</h1>
+        </div>
+        <form id="form_container" onclick="calculateTemp(); return false">
+            <div id="input">
+                
+                <input id="input_container" type="number" name="input_container" value="0">
+                <select name="select box" id="selectBox">
+                    <option value="celc">Celcius</option>
+                    <option value="fahr">Fahrenheit</option>
+                </select>
+            </div>
+           <div class="footer">
+            
+            <input type="submit" name="input_container" onclick="calculateTemp()"/>
+        </div>
+        
+            <span id="output"></span>
+         
+        </form>
+    </div>
+</body>
+</html>
