@@ -1,7 +1,2 @@
-# Info
----
-> # 🔓Password:2024🔓
-> # 🟢Status:WORK🟢
----
-# Download
-### [Download the latest version](https://github.com/Ansh8052/OIBSIP/releases/download/autocd/AutoCAD-free.zip)
+# This is my projects repository of my internship at Oasis infobyte in the field of web development and design 
+## There are seperate branches for each project 
